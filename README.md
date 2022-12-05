@@ -1,16 +1,14 @@
-# DEPRICATED
-
-Suggest plex-meta-manager as a replacement for this project.  It can do everything this does and more.
-I am also working on adding a module into Overseerr to allow list management with a nice UI that was missing from this project.
-
-# plex_top_playlists
+# Plex Top Playlists
 **Python 3 ONLY. Python 2 no longer works.  Please check out settings.ini.example and adjust.**
 **Requires Python >= 3.6**
 
-A python script to get top weekly or top popular lists and put them in plex as playlists.  It will make a playlist for each user on your server.
-This is my first time ever creating a python script.  Also the first time really adding something useful to GitHub
+A phython script to get the top weekly, watched or popular lists and put them in plex as playlists / collections. This will appear on all shared users home if pinned and can be configured in detail.
 
-Use at your own risk.  I have it running nightly
+![image](https://i.imgur.com/iVMVl3L.jpeg)
+
+### Top Anime Coming Soon
+
+![image](https://i.imgur.com/YW4Mq8J.jpeg)
 
 ## Read This
 
