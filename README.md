@@ -10,6 +10,43 @@ A phython script to get the top weekly, watched or popular lists and put them in
 
 ![image](https://i.imgur.com/YW4Mq8J.jpeg)
 
+## Directory Structure
+
+```
+.
+├── clasess        
+│   ├── enum_types.pu
+│   ├── film_item.py
+│   ├── film_list.py
+│   ├── plex_data.py
+│   └── visibility.py
+├── functions
+│   ├── plex_library
+│   │   ├── library_utils.py
+│   │   ├── movies.py
+│   │   └── shows.py
+│   ├── sources
+|   │   ├── imdb.py
+|   │   └── trakt.py
+│   ├── collection.py
+│   ├── discord.py
+│   ├── playlists.py
+│   ├── plex_connection.py
+│   ├── plex_request.py
+│   └── users.py
+├── tests
+│   ├── parse_test.py
+│   └── test0.py
+├── utils
+│   └── logger.py
+├── global_vars.py
+├── plex_playlist_update.py
+├── requirements.txt
+├── settings.ini
+├── settings.ini.example
+└── version.py
+```
+
 ## Read This
 
 This script is assuming you are using "Plex Movie" as your library check.  If you are using TMDB it will not work.
