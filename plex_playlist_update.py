@@ -40,7 +40,7 @@ def list_updater(plex):
     film_lists = []
 
     film_lists = film_lists + trakt_list_loop()
-    film_lists = film_lists + imdb_list_loop()
+    # film_lists = film_lists + imdb_list_loop()
 
     # Process Lists
     for filmlist in film_lists:
@@ -125,7 +125,7 @@ Please use one of the following commands:
     if sys.argv[1] == 'remove_all_playlists':
         removing_film_lists = []
         removing_film_lists += trakt_list_loop()
-        removing_film_lists += imdb_list_loop()
+        # removing_film_lists += imdb_list_loop()
 
         remove_playlists_for_user(PLEX, removing_film_lists)
 
